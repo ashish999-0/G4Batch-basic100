@@ -1,6 +1,8 @@
 /* height = 100vh = 100% = 912px
-width = 100vw = 100% = 1536px */
-
+width = 100vw = 100% = 1536px 
+1 rem = 16px
+1em = 16px depends on font size 
+*/
 
 *{ 
     margin: 0;
@@ -12,7 +14,17 @@ html,body{
     width: 100%;
 }
  .box{
-    height: 100%;
-    width: 100%;
-    background-color: aqua;
+    height: 500px;
+    width: 500px;
+    background-color: brown;
+    font-size: 20px;
  }
+ .box1{
+    height: 20em;
+    width: 20rem;
+    background-color: aqua;
+}
+.box1:hover{
+    height: 21em;
+    background-color: pink;
+}
